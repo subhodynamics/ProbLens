@@ -10,6 +10,16 @@ body {
     background-color: #f9f9f9;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.yellow-text {
+    color: #f7ba16;
+}
+
 .search-container {
     text-align: center;
 }
@@ -20,4 +30,36 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    /* background-color: #007BFF; */
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    /* background-color: #0056b3; */
+    background-color: #333333;
+}
+
+.results {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-item:last-child {
+    border-bottom: none;
 }
